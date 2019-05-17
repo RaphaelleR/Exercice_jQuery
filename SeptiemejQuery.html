@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+	$(document).ready(function(){
+		$("#b1").click(function(){
+			$("p").hide("slow",function(){
+				alert("The paragrah is now hidden");
+			});
+		});
+	});
+		$("button").click(function(){
+			$("p").hide("slow",function(){
+				alert("The paragrah is now hidden");
+			});
+		});
+	});
+		
+</script>
+</head>
+<body>
+	<button id="b1">Hide</button>
+	<button>Hide2</button>
+	<p>Paragraph jQuery</p>
+	
+</body>
+</html>
